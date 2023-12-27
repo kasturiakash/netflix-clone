@@ -1,0 +1,10 @@
+---
+version: "3.8"
+services:
+  movies:
+    image: kasturiakash/netflix:latest
+    ports:
+      - 85:80
+    deploy:
+      replicas: 3
+
